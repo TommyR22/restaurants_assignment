@@ -1,0 +1,19 @@
+{
+  "server": {
+    "port": 3000
+  },
+  "database": {
+    "database": "thefork",
+    "host": "postgres",
+    "user": "postgres",
+    "password": "postgres",
+    "port": 5432
+  },
+  "imageService": {
+    "url": "http://image-service",
+    "port": 3010,
+    "endpoints": {
+      "images": "/images"
+    }
+  }
+}
